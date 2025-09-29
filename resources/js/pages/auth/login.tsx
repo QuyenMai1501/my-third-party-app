@@ -93,6 +93,10 @@ export default function Login({ status, canResetPassword }: LoginProps) {
                                 )}
                                 Log in
                             </Button>
+
+                            <Button asChild className="mt-4 w-full" >
+                                <a href="/auth/google" className="w-full">Sign In with Google</a>
+                            </Button>
                         </div>
 
                         <div className="text-center text-sm text-muted-foreground">
